@@ -4,183 +4,185 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Frakes Method Consulting — Business Repair & Automation</title>
-  <meta name="description" content="We fix broken businesses and build the automation systems that scale them. Frakes Method Consulting — Business Repair & Automation. Dallas-Fort Worth, TX." />
+  <meta name="description" content="We fix broken business systems and automate everything. Custom automation stacks, AI growth engines, and franchise operating systems — built, deployed, and handed off running." />
   <meta property="og:title" content="Frakes Method Consulting — Business Repair & Automation" />
-  <meta property="og:description" content="We fix broken businesses and build the automation systems that scale them." />
+  <meta property="og:description" content="We fix broken business systems and automate everything." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="logo-final.png" />
-  <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- NAV -->
-  <nav class="nav" id="nav">
+  <nav id="nav">
     <div class="nav-inner">
       <a href="#" class="nav-logo">
-        <img src="logo-final.png" alt="Frakes Method Consulting" class="nav-logo-img" />
+        <img src="logo-v3-a.png" alt="Frakes Method Consulting" class="nav-logo-img" />
       </a>
-      <div class="nav-links">
-        <a href="#what-we-do">What We Do</a>
-        <a href="#solutions">Solutions</a>
-        <a href="#proof">Results</a>
-        <a href="#about">About</a>
-        <a href="#intake" class="nav-cta">Apply Now</a>
-      </div>
-      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <ul class="nav-links">
+        <li><a href="#problem">What We Do</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#proof">Results</a></li>
+        <li><a href="#audit">Free Audit</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a href="#apply" class="btn btn-gold nav-cta">Apply Now</a>
+      <button id="hamburger" class="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
     </div>
-    <div class="nav-mobile" id="nav-mobile">
-      <a href="#what-we-do">What We Do</a>
+    <div id="nav-mobile" class="nav-mobile">
+      <a href="#problem">What We Do</a>
       <a href="#solutions">Solutions</a>
       <a href="#proof">Results</a>
+      <a href="#audit">Free Audit</a>
       <a href="#about">About</a>
-      <a href="#intake">Apply Now</a>
+      <a href="#apply" class="btn btn-gold">Apply Now</a>
     </div>
   </nav>
 
   <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-overlay"></div>
-    <div class="hero-glow-1"></div>
-    <div class="hero-glow-2"></div>
-    <div class="hero-content">
-      <div class="hero-left">
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
         <div class="hero-badge reveal">
           <span class="badge-dot"></span>
           Now accepting Q2 2026 clients — 3 spots remaining
         </div>
-        <h1 class="hero-headline reveal reveal-delay-1">
+        <h1 class="hero-headline reveal">
           Your business has<br />
-          <span class="headline-blue">broken systems.</span><br />
+          <span class="text-gold">broken systems.</span><br />
           We fix them. Then we<br />
           automate everything.
         </h1>
-        <p class="hero-sub reveal reveal-delay-2">
+        <p class="hero-sub reveal">
           Most businesses aren't failing because of bad products or bad people. They're failing because of broken processes, disconnected tools, and manual work that should have been automated years ago. We diagnose the problem and deploy the solution.
         </p>
-        <div class="hero-ctas reveal reveal-delay-3">
-          <a href="#intake" class="btn-primary">Apply to Work With Us →</a>
-          <a href="#solutions" class="btn-secondary">See What We Build</a>
+        <div class="hero-actions reveal">
+          <a href="#apply" class="btn btn-gold btn-lg">Apply to Work With Us →</a>
+          <a href="#solutions" class="btn btn-ghost btn-lg">See What We Build</a>
         </div>
-        <div class="hero-stats reveal reveal-delay-4">
+        <div class="hero-stats reveal">
           <div class="hero-stat">
-            <div class="hero-stat-num"><span>500+</span></div>
+            <div class="hero-stat-num"><span>500</span>+</div>
             <div class="hero-stat-label">Territories Automated</div>
           </div>
+          <div class="hero-stat-divider"></div>
           <div class="hero-stat">
-            <div class="hero-stat-num"><span>$10K</span>/mo</div>
+            <div class="hero-stat-num">$<span>10</span>K/mo</div>
             <div class="hero-stat-label">Agency Work Replaced</div>
           </div>
+          <div class="hero-stat-divider"></div>
           <div class="hero-stat">
             <div class="hero-stat-num"><span>3</span></div>
             <div class="hero-stat-label">Operating Systems Built</div>
           </div>
         </div>
       </div>
-      <div class="hero-right reveal reveal-delay-2">
-        <div class="dashboard-card">
-          <div class="dashboard-header">
-            <span class="dashboard-title">Business Repair Dashboard</span>
-            <span class="dashboard-status"><span class="status-dot"></span> Live</span>
+      <div class="hero-visual reveal">
+        <div class="os-card">
+          <div class="os-card-header">
+            <span class="os-card-title">Business Repair Dashboard</span>
+            <span class="os-live-badge"><span class="os-live-dot"></span>Live</span>
           </div>
-          <div class="dashboard-rows">
-            <div class="dash-row">
-              <span class="dash-row-label">Lead Capture</span>
-              <span class="dash-row-value val-green">Automated</span>
+          <div class="os-metrics">
+            <div class="os-metric-row">
+              <span class="os-metric-label">Lead Capture</span>
+              <span class="os-badge os-badge-green">Automated</span>
             </div>
-            <div class="dash-row">
-              <span class="dash-row-label">Follow-Up Sequences</span>
-              <span class="dash-row-value val-green">Running</span>
+            <div class="os-metric-row">
+              <span class="os-metric-label">Follow-Up Sequences</span>
+              <span class="os-badge os-badge-blue">Running</span>
             </div>
-            <div class="dash-row">
-              <span class="dash-row-label">SEO Engine</span>
-              <span class="dash-row-value val-blue">87 / 100</span>
+            <div class="os-metric-row">
+              <span class="os-metric-label">SEO Engine</span>
+              <div class="os-score-bar">
+                <div class="os-score-fill" style="width:87%"></div>
+                <span class="os-score-label">87 / 100</span>
+              </div>
             </div>
-            <div class="dash-row">
-              <span class="dash-row-label">Invoicing</span>
-              <span class="dash-row-value val-green">Automated</span>
+            <div class="os-metric-row">
+              <span class="os-metric-label">Invoicing</span>
+              <span class="os-badge os-badge-green">Automated</span>
             </div>
-            <div class="dash-row">
-              <span class="dash-row-label">Reporting</span>
-              <span class="dash-row-value val-green">Live</span>
+            <div class="os-metric-row">
+              <span class="os-metric-label">Reporting</span>
+              <span class="os-badge os-badge-blue">Live</span>
             </div>
-            <div class="dash-row">
-              <span class="dash-row-label">Review Requests</span>
-              <span class="dash-row-value val-yellow">Optimizing</span>
+            <div class="os-metric-row">
+              <span class="os-metric-label">Review Requests</span>
+              <span class="os-badge os-badge-gold">Optimizing</span>
             </div>
           </div>
-          <div class="dashboard-footer">
-            <span class="dash-footer-text">12 workflows active</span>
-            <span class="dash-footer-count">0 manual tasks remaining</span>
+          <div class="os-card-footer">
+            <span>12 workflows active</span>
+            <span class="os-footer-highlight">0 manual tasks remaining</span>
           </div>
         </div>
       </div>
     </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
   </section>
 
-  <div class="section-divider"></div>
-
   <!-- PROBLEM -->
-  <section class="section section-darker" id="what-we-do">
+  <section class="section section-ivory" id="problem">
     <div class="container">
-      <div class="problem-intro">
-        <div class="section-tag reveal">The Problem</div>
-        <h2 class="section-headline reveal reveal-delay-1">You're running your business<br />on duct tape and willpower.</h2>
-        <p class="reveal reveal-delay-2">
-          <strong>Disconnected tools. Manual processes. A team doing work that software should handle.</strong> Every hour spent on data entry, follow-up emails, scheduling, and reporting is an hour you're paying for something a well-built system does in milliseconds.
-        </p>
-        <p class="reveal reveal-delay-2">
-          The businesses that win the next decade aren't the ones with the most employees. They're the ones with the best systems. We build those systems — and we fix whatever's broken first.
-        </p>
-      </div>
-      <div class="problem-grid">
-        <div class="problem-card reveal reveal-delay-1">
-          <span class="problem-icon">💸</span>
+      <div class="section-label reveal">The Problem</div>
+      <h2 class="section-headline reveal">
+        You're running your business<br />
+        on duct tape and willpower.
+      </h2>
+      <p class="section-sub reveal">
+        <strong>Disconnected tools. Manual processes. A team doing work that software should handle.</strong> Every hour spent on data entry, follow-up emails, scheduling, and reporting is an hour you're paying for something a well-built system does in milliseconds.
+      </p>
+      <p class="section-sub reveal" style="margin-top:0">
+        The businesses that win the next decade aren't the ones with the most employees. They're the ones with the best systems. We build those systems — and we fix whatever's broken first.
+      </p>
+      <div class="pain-grid">
+        <div class="pain-card reveal">
+          <div class="pain-icon">💸</div>
           <h4>Overpaying for manual work</h4>
           <p>Tasks that take your team hours take automation seconds — and it never calls in sick or asks for a raise.</p>
         </div>
-        <div class="problem-card reveal reveal-delay-2">
-          <span class="problem-icon">🔀</span>
+        <div class="pain-card reveal">
+          <div class="pain-icon">🔀</div>
           <h4>Disconnected tools and data</h4>
           <p>Your CRM, website, reviews, scheduling, and invoicing don't talk to each other. Revenue leaks at every gap.</p>
         </div>
-        <div class="problem-card reveal reveal-delay-3">
-          <span class="problem-icon">📉</span>
+        <div class="pain-card reveal">
+          <div class="pain-icon">📉</div>
           <h4>Growth that requires more headcount</h4>
           <p>If every new client requires a new hire, you don't have a scalable business — you have a job with employees.</p>
         </div>
-        <div class="problem-card reveal reveal-delay-4">
-          <span class="problem-icon">🤷</span>
+        <div class="pain-card reveal">
+          <div class="pain-icon">🤷</div>
           <h4>Strategy without execution</h4>
           <p>Most consultants hand you a deck. We hand you a running system that generates revenue while you sleep.</p>
         </div>
       </div>
-      <div class="problem-cta-row reveal">
-        <a href="#intake" class="btn-primary">Get Your Free Audit →</a>
-      </div>
     </div>
   </section>
 
-  <div class="section-divider"></div>
-
   <!-- SOLUTIONS -->
-  <section class="section section-dark" id="solutions">
+  <section class="section section-navy" id="solutions">
     <div class="container">
-      <div class="section-header center">
-        <div class="section-tag reveal">What We Build</div>
-        <h2 class="section-headline reveal reveal-delay-1">Three solutions. One operating model.</h2>
-        <p class="section-sub reveal reveal-delay-2">We don't sell software subscriptions or slide decks. We deploy custom systems — built, tested, and handed off running.</p>
-      </div>
+      <div class="section-label section-label-gold reveal">What We Build</div>
+      <h2 class="section-headline text-white reveal">Three solutions. One operating model.</h2>
+      <p class="section-sub text-ivory-muted reveal">
+        We don't sell software subscriptions or slide decks. We deploy custom systems — built, tested, and handed off running.
+      </p>
       <div class="solutions-grid">
-        <div class="solution-card featured reveal reveal-delay-1">
-          <span class="featured-badge">Most Popular</span>
-          <span class="solution-icon">🤖</span>
+        <div class="solution-card solution-card-featured reveal">
+          <div class="solution-badge">Most Popular</div>
+          <div class="solution-icon">🤖</div>
           <h3>AI Growth Engine</h3>
           <p>We automate what SEO agencies charge $10K/month for. Competitive analysis, schema audits, buyer-intent keywords, and Google Business Profile posts — all running on autopilot.</p>
           <ul class="solution-features">
@@ -190,11 +192,11 @@
             <li>Buyer-intent keyword targeting</li>
             <li>Monthly performance reporting</li>
           </ul>
-          <div class="solution-price">From <strong>$500</strong> /month</div>
-          <a href="#intake" class="btn-solution">Apply Now →</a>
+          <div class="solution-price">From <strong>$500</strong> <span>/month</span></div>
+          <a href="#apply" class="btn btn-gold btn-block">Apply Now →</a>
         </div>
-        <div class="solution-card reveal reveal-delay-2">
-          <span class="solution-icon">⚡</span>
+        <div class="solution-card reveal">
+          <div class="solution-icon">⚡</div>
           <h3>Business Automation Stack</h3>
           <p>We map every manual process in your business and replace it with automated workflows — from lead capture and follow-up to invoicing, scheduling, and reporting.</p>
           <ul class="solution-features">
@@ -204,11 +206,11 @@
             <li>Scheduling & dispatch workflows</li>
             <li>Custom reporting dashboards</li>
           </ul>
-          <div class="solution-price">From <strong>$5K</strong> project</div>
-          <a href="#intake" class="btn-solution">Apply Now →</a>
+          <div class="solution-price">From <strong>$5K</strong> <span>project</span></div>
+          <a href="#apply" class="btn btn-outline-gold btn-block">Apply Now →</a>
         </div>
-        <div class="solution-card reveal reveal-delay-3">
-          <span class="solution-icon">🏗️</span>
+        <div class="solution-card reveal">
+          <div class="solution-icon">🏗️</div>
           <h3>Franchise OS Build</h3>
           <p>We design the full operating system for franchise businesses — from territory mapping and royalty engines to franchisee onboarding and crew management.</p>
           <ul class="solution-features">
@@ -218,67 +220,117 @@
             <li>Partner network architecture</li>
             <li>Full tech stack deployment</li>
           </ul>
-          <div class="solution-price">From <strong>$15K</strong> project</div>
-          <a href="#intake" class="btn-solution">Apply Now →</a>
+          <div class="solution-price">From <strong>$15K</strong> <span>project</span></div>
+          <a href="#apply" class="btn btn-outline-gold btn-block">Apply Now →</a>
         </div>
       </div>
     </div>
   </section>
-
-  <div class="section-divider"></div>
 
   <!-- PROCESS -->
-  <section class="section section-darker">
+  <section class="section section-ivory" id="process">
     <div class="container">
-      <div class="section-header center">
-        <div class="section-tag reveal">The Process</div>
-        <h2 class="section-headline reveal reveal-delay-1">From audit to automation in 30 days.</h2>
-        <p class="section-sub reveal reveal-delay-2">We move fast, build real systems, and hand them off running. No long retainers with uncertain outcomes.</p>
-      </div>
+      <div class="section-label reveal">The Process</div>
+      <h2 class="section-headline reveal">From audit to automation in 30 days.</h2>
+      <p class="section-sub reveal">We move fast, build real systems, and hand them off running. No long retainers with uncertain outcomes.</p>
       <div class="process-steps">
-        <div class="process-step reveal reveal-delay-1">
-          <div class="step-num-wrap">
-            <div class="step-num">01</div>
+        <div class="process-step reveal">
+          <div class="process-num">01</div>
+          <div class="process-content">
+            <h3>Automation Audit</h3>
+            <p>We map every manual process in your business — every task, every handoff, every tool. We identify exactly what should be automated and the ROI on each one.</p>
           </div>
-          <h3>Automation Audit</h3>
-          <p>We map every manual process in your business — every task, every handoff, every tool. We identify exactly what should be automated and the ROI on each one.</p>
         </div>
-        <div class="process-step reveal reveal-delay-2">
-          <div class="step-num-wrap">
-            <div class="step-num">02</div>
+        <div class="process-connector reveal"></div>
+        <div class="process-step reveal">
+          <div class="process-num">02</div>
+          <div class="process-content">
+            <h3>System Design</h3>
+            <p>We design your custom automation stack — the exact workflows, tools, and integrations that will replace your manual processes. You approve the blueprint before we build anything.</p>
           </div>
-          <h3>System Design</h3>
-          <p>We design your custom automation stack — the exact workflows, tools, and integrations that will replace your manual processes. You approve the blueprint before we build anything.</p>
         </div>
-        <div class="process-step reveal reveal-delay-3">
-          <div class="step-num-wrap">
-            <div class="step-num">03</div>
+        <div class="process-connector reveal"></div>
+        <div class="process-step reveal">
+          <div class="process-num">03</div>
+          <div class="process-content">
+            <h3>Build & Deploy</h3>
+            <p>We build it, test it, and deploy it live in your business. No half-built systems handed off to your team to figure out. We hand you a running machine.</p>
           </div>
-          <h3>Build & Deploy</h3>
-          <p>We build it, test it, and deploy it live in your business. No half-built systems handed off to your team to figure out. We hand you a running machine.</p>
         </div>
-        <div class="process-step reveal reveal-delay-4">
-          <div class="step-num-wrap">
-            <div class="step-num">04</div>
+        <div class="process-connector reveal"></div>
+        <div class="process-step reveal">
+          <div class="process-num">04</div>
+          <div class="process-content">
+            <h3>Optimize & Scale</h3>
+            <p>We monitor performance, optimize workflows, and expand the system as your business grows. Your automation compounds over time — not stale.</p>
           </div>
-          <h3>Optimize & Scale</h3>
-          <p>We monitor performance, optimize workflows, and expand the system as your business grows. Your automation compounds over time — not stale.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="section-divider"></div>
+  <!-- FREE AI AUDIT EMBED -->
+  <section class="section section-navy" id="audit">
+    <div class="container">
+      <div class="section-label section-label-gold reveal">Free AI Audit</div>
+      <h2 class="section-headline text-white reveal">Is Your Business Ready to Run on Autopilot?</h2>
+      <p class="section-sub text-ivory-muted reveal">
+        Complete our 8-minute AI-powered audit and we'll build you a custom automation package — identifying exactly where your business is leaking time and money, and the specific tools to fix it. No fluff. No generic advice. A real plan built for your specific business.
+      </p>
+      <div class="audit-embed-wrap reveal">
+        <div class="audit-embed-features">
+          <div class="audit-feature">
+            <span class="audit-feature-icon">🗺️</span>
+            <div>
+              <strong>AI Automation Map</strong>
+              <span>See exactly what to automate first</span>
+            </div>
+          </div>
+          <div class="audit-feature">
+            <span class="audit-feature-icon">📦</span>
+            <div>
+              <strong>Custom Package</strong>
+              <span>Tools selected for your industry</span>
+            </div>
+          </div>
+          <div class="audit-feature">
+            <span class="audit-feature-icon">🎯</span>
+            <div>
+              <strong>90-Day Roadmap</strong>
+              <span>Step-by-step execution plan</span>
+            </div>
+          </div>
+        </div>
+        <div class="audit-iframe-container">
+          <iframe
+            src="https://frakesai-fveuygok.manus.space/"
+            title="Frakes Method AI Business Audit"
+            class="audit-iframe"
+            frameborder="0"
+            allow="clipboard-write"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <p class="audit-note">Takes 8 minutes · 100% confidential · No obligation</p>
+      </div>
+    </div>
+  </section>
 
   <!-- PROOF -->
-  <section class="section section-dark" id="proof">
+  <section class="section section-ivory" id="proof">
     <div class="container">
+      <div class="section-label reveal">Proof of Concept</div>
       <div class="proof-layout">
-        <div class="proof-left">
-          <div class="section-tag reveal">Proof of Concept</div>
-          <h2 class="reveal reveal-delay-1">We didn't build this<br />for a client first.<br />We built it for ourselves.</h2>
-          <p class="reveal reveal-delay-2">DukeOS — the franchise operating system for Scoop Duke — is the live proof of concept for everything we offer. Built from scratch, deployed across 500+ national territories, running on automated SEO, AI upsell engines, and cross-portal customer tracking.</p>
-          <div class="proof-metrics reveal reveal-delay-3">
+        <div class="proof-copy">
+          <h2 class="section-headline reveal">
+            We didn't build this<br />
+            for a client first.<br />
+            We built it for ourselves.
+          </h2>
+          <p class="section-sub reveal">
+            DukeOS — the franchise operating system for Scoop Duke — is the live proof of concept for everything we offer. Built from scratch, deployed across 500+ national territories, running on automated SEO, AI upsell engines, and cross-portal customer tracking.
+          </p>
+          <div class="proof-metrics reveal">
             <div class="proof-metric">
               <div class="proof-metric-num">510</div>
               <div class="proof-metric-label">Territories mapped nationally</div>
@@ -296,27 +348,33 @@
               <div class="proof-metric-label">Paid to an SEO agency</div>
             </div>
           </div>
-          <a href="https://dukesos.vercel.app" target="_blank" class="btn-primary reveal reveal-delay-4">View DukeOS Live →</a>
+          <a href="https://scoopdukefranchise.com" target="_blank" class="btn btn-navy btn-lg reveal">View DukeOS Live →</a>
         </div>
-        <div class="proof-right">
-          <div class="proof-features-grid">
-            <div class="proof-feature reveal reveal-delay-1">
-              <span class="proof-feature-icon">🗺️</span>
+        <div class="proof-features reveal">
+          <div class="proof-feature-card">
+            <div class="proof-feature-icon">🗺️</div>
+            <div>
               <h4>Territory Marketplace</h4>
               <p>500+ territories with flat-tier pricing ($20K–$45K), interactive map, and automated initiation fee calculation.</p>
             </div>
-            <div class="proof-feature reveal reveal-delay-2">
-              <span class="proof-feature-icon">🤖</span>
+          </div>
+          <div class="proof-feature-card">
+            <div class="proof-feature-icon">🤖</div>
+            <div>
               <h4>AI Photo Upsell Engine</h4>
               <p>GPT-4o Vision + Claude analyze job photos in real-time to identify referral opportunities for the partner network.</p>
             </div>
-            <div class="proof-feature reveal reveal-delay-3">
-              <span class="proof-feature-icon">💰</span>
+          </div>
+          <div class="proof-feature-card">
+            <div class="proof-feature-icon">💰</div>
+            <div>
               <h4>Royalty Engine</h4>
               <p>Automated 10% royalty + 2.5% marketing fee calculation, statement generation, and payment tracking.</p>
             </div>
-            <div class="proof-feature reveal reveal-delay-4">
-              <span class="proof-feature-icon">📊</span>
+          </div>
+          <div class="proof-feature-card">
+            <div class="proof-feature-icon">📊</div>
+            <div>
               <h4>AI Accountant</h4>
               <p>Franchise-level financial intelligence — AR tracking, tax packages, and year-end prep without a bookkeeper.</p>
             </div>
@@ -326,105 +384,121 @@
     </div>
   </section>
 
-  <div class="section-divider"></div>
-
   <!-- ABOUT -->
-  <section class="section section-darker" id="about">
+  <section class="section section-navy" id="about">
     <div class="container">
       <div class="about-layout">
-        <div class="about-visual reveal">
-          <div class="about-card">
-            <div class="about-initials">AF</div>
-            <h3>Andrew Frakes</h3>
-            <div class="about-card-title">Founder, Frakes Method Consulting</div>
-            <div class="about-tags">
-              <span class="about-tag">Franchise Operator</span>
-              <span class="about-tag">AI Systems Builder</span>
-              <span class="about-tag">Investment Principal</span>
-              <span class="about-tag">DFW-Based</span>
-            </div>
+        <div class="about-avatar-wrap reveal">
+          <div class="about-avatar">AF</div>
+          <div class="about-tags">
+            <span class="about-tag">Franchise Operator</span>
+            <span class="about-tag">AI Systems Builder</span>
+            <span class="about-tag">Investment Principal</span>
+            <span class="about-tag">DFW-Based</span>
           </div>
         </div>
-        <div class="about-right">
-          <div class="section-tag reveal">The Method</div>
-          <h2 class="reveal reveal-delay-1">Built by an operator.<br />Not a theorist.</h2>
-          <p class="reveal reveal-delay-2">Andrew Frakes is the founder of Scoop Duke (pet waste removal franchise), LIT Ventures (investment firm), and the architect of DukeOS — a franchise operating system built entirely in-house using AI, automation, and first-principles thinking.</p>
-          <p class="reveal reveal-delay-3">The Frakes Method is the distillation of what actually works: <strong>identify the 20% of actions driving 80% of results, automate everything that doesn't require human judgment, and build systems that compound over time.</strong></p>
-          <p class="reveal reveal-delay-3">Every engagement is built around deploying real infrastructure — not slide decks, not frameworks, not theory. Running systems that generate revenue while you sleep.</p>
+        <div class="about-copy">
+          <div class="section-label section-label-gold reveal">The Method</div>
+          <h2 class="section-headline text-white reveal">Built by an operator.<br />Not a theorist.</h2>
+          <p class="section-sub text-ivory-muted reveal">
+            Andrew Frakes is the founder of Scoop Duke (pet waste removal franchise), LIT Ventures (investment firm), and the architect of DukeOS — a franchise operating system built entirely in-house using AI, automation, and first-principles thinking.
+          </p>
+          <p class="section-sub text-ivory-muted reveal">
+            The Frakes Method is the distillation of what actually works: <strong style="color:var(--gold)">identify the 20% of actions driving 80% of results, automate everything that doesn't require human judgment, and build systems that compound over time.</strong>
+          </p>
+          <p class="section-sub text-ivory-muted reveal">
+            Every engagement is built around deploying real infrastructure — not slide decks, not frameworks, not theory. Running systems that generate revenue while you sleep.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="section-divider"></div>
-
-  <!-- INTAKE FORM -->
-  <section class="section intake-section" id="intake">
+  <!-- APPLY / INTAKE FORM -->
+  <section class="section section-ivory" id="apply">
     <div class="container">
-      <div class="intake-layout">
-        <div class="intake-sidebar">
-          <div class="section-tag reveal">Apply to Work With Us</div>
-          <h2 class="reveal reveal-delay-1">Tell us about your business.</h2>
-          <p class="reveal reveal-delay-2">We take on a limited number of clients each quarter. Fill out the form — we review every application personally and respond within 24 hours.</p>
-          <div class="intake-promises reveal reveal-delay-3">
-            <div class="intake-promise">
-              <div class="promise-icon">⚡</div>
-              <div class="promise-text">
-                <strong>24-Hour Response</strong>
-                We review every application personally and respond within one business day.
-              </div>
+      <div class="section-label reveal">Apply to Work With Us</div>
+      <h2 class="section-headline reveal">Tell us about your business.</h2>
+      <p class="section-sub reveal">
+        We take on a limited number of clients each quarter. Fill out the form — we review every application personally and respond within 24 hours.
+      </p>
+      <div class="apply-layout">
+        <div class="apply-sidebar reveal">
+          <div class="apply-perk">
+            <span class="apply-perk-icon">⚡</span>
+            <div>
+              <strong>24-Hour Response</strong>
+              <span>We review every application personally and respond within one business day.</span>
             </div>
-            <div class="intake-promise">
-              <div class="promise-icon">🔒</div>
-              <div class="promise-text">
-                <strong>100% Confidential</strong>
-                Everything you share stays between us. No spam, no sharing, no nonsense.
-              </div>
+          </div>
+          <div class="apply-perk">
+            <span class="apply-perk-icon">🔒</span>
+            <div>
+              <strong>100% Confidential</strong>
+              <span>Everything you share stays between us. No spam, no sharing, no nonsense.</span>
             </div>
-            <div class="intake-promise">
-              <div class="promise-icon">🎯</div>
-              <div class="promise-text">
-                <strong>Free Audit Included</strong>
-                Every qualified applicant gets a free automation audit — no obligation.
-              </div>
+          </div>
+          <div class="apply-perk">
+            <span class="apply-perk-icon">🎯</span>
+            <div>
+              <strong>Free Audit Included</strong>
+              <span>Every qualified applicant gets a free automation audit — no obligation.</span>
             </div>
-            <div class="intake-promise">
-              <div class="promise-icon">📅</div>
-              <div class="promise-text">
-                <strong>Limited Spots</strong>
-                We only take on clients we can genuinely move the needle for. Quality over volume.
-              </div>
+          </div>
+          <div class="apply-perk">
+            <span class="apply-perk-icon">📅</span>
+            <div>
+              <strong>Limited Spots</strong>
+              <span>We only take on clients we can genuinely move the needle for. Quality over volume.</span>
             </div>
           </div>
         </div>
-
-        <div class="intake-form-wrap reveal reveal-delay-2">
+        <div class="intake-form-wrap reveal">
+          <!-- Step Progress -->
           <div class="form-progress">
-            <div class="form-step-tab active" data-step="1">01 Basics</div>
-            <div class="form-step-tab" data-step="2">02 Profile</div>
-            <div class="form-step-tab" data-step="3">03 Tech Stack</div>
-            <div class="form-step-tab" data-step="4">04 Opportunity</div>
-            <div class="form-step-tab" data-step="5">05 Goals</div>
+            <div class="form-step-tab active" data-step="1">
+              <span class="step-num">01</span>
+              <span class="step-label">Basics</span>
+            </div>
+            <div class="form-step-tab" data-step="2">
+              <span class="step-num">02</span>
+              <span class="step-label">Profile</span>
+            </div>
+            <div class="form-step-tab" data-step="3">
+              <span class="step-num">03</span>
+              <span class="step-label">Tech Stack</span>
+            </div>
+            <div class="form-step-tab" data-step="4">
+              <span class="step-num">04</span>
+              <span class="step-label">Opportunity</span>
+            </div>
+            <div class="form-step-tab" data-step="5">
+              <span class="step-num">05</span>
+              <span class="step-label">Goals</span>
+            </div>
           </div>
-          <form id="intake-form" class="form-body">
 
-            <!-- STEP 1: Business Basics -->
+          <form id="intake-form" novalidate>
+
+            <!-- STEP 1: BASICS -->
             <div class="form-section active" data-section="1">
-              <div class="form-section-title">Business Basics</div>
-              <div class="form-section-sub">Let's start with who you are and how to reach you.</div>
+              <div class="form-section-header">
+                <h3>Business Basics</h3>
+                <p>Let's start with who you are and how to reach you.</p>
+              </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>First Name *</label>
+                  <label>First Name <span class="req">*</span></label>
                   <input type="text" name="first_name" placeholder="First name" required />
                 </div>
                 <div class="form-group">
-                  <label>Last Name *</label>
+                  <label>Last Name <span class="req">*</span></label>
                   <input type="text" name="last_name" placeholder="Last name" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>Email Address *</label>
+                  <label>Email Address <span class="req">*</span></label>
                   <input type="email" name="email" placeholder="you@company.com" required />
                 </div>
                 <div class="form-group">
@@ -434,8 +508,8 @@
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>Business / Company Name *</label>
-                  <input type="text" name="business_name" placeholder="Your business name" required />
+                  <label>Business / Company Name <span class="req">*</span></label>
+                  <input type="text" name="company" placeholder="Your business name" required />
                 </div>
                 <div class="form-group">
                   <label>Business Website</label>
@@ -444,11 +518,11 @@
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>Owner(s) Name(s) *</label>
+                  <label>Owner(s) Name(s) <span class="req">*</span></label>
                   <input type="text" name="owners" placeholder="Name of all Owner(s)" required />
                 </div>
                 <div class="form-group">
-                  <label>Years in Business *</label>
+                  <label>Years in Business <span class="req">*</span></label>
                   <select name="years_in_business" required>
                     <option value="">Select...</option>
                     <option>Less than 1 year</option>
@@ -460,38 +534,35 @@
                 </div>
               </div>
               <div class="form-nav">
-                <div></div>
-                <button type="button" class="btn-form-next" onclick="nextStep(1)">Next: Business Profile →</button>
+                <button type="button" class="btn btn-navy btn-next" onclick="nextStep(1)">Next: Business Profile →</button>
               </div>
             </div>
 
-            <!-- STEP 2: Business Profile -->
+            <!-- STEP 2: BUSINESS PROFILE -->
             <div class="form-section" data-section="2">
-              <div class="form-section-title">Business Profile</div>
-              <div class="form-section-sub">Help us understand your business model and scale.</div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What industry are you in? *</label>
-                  <select name="industry" required>
-                    <option value="">Select your industry...</option>
-                    <option>Home Services (cleaning, landscaping, pest control, etc.)</option>
-                    <option>Professional Services (law, accounting, consulting, etc.)</option>
-                    <option>Healthcare / Medical</option>
-                    <option>Real Estate / Property Management</option>
-                    <option>Retail / E-Commerce</option>
-                    <option>Food & Beverage / Restaurant</option>
-                    <option>Construction / Trades</option>
-                    <option>Franchise / Multi-Unit</option>
-                    <option>Technology / SaaS</option>
-                    <option>Other</option>
-                  </select>
-                </div>
+              <div class="form-section-header">
+                <h3>Business Profile</h3>
+                <p>Help us understand your business model and scale.</p>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>Describe your business and what you do *</label>
-                  <textarea name="business_description" placeholder="What does your business do? Who are your customers? What's your core service or product?" rows="4" required></textarea>
-                </div>
+              <div class="form-group">
+                <label>What industry are you in? <span class="req">*</span></label>
+                <select name="industry" required>
+                  <option value="">Select your industry...</option>
+                  <option>Home Services (cleaning, landscaping, pest control, etc.)</option>
+                  <option>Professional Services (law, accounting, consulting, etc.)</option>
+                  <option>Healthcare / Medical</option>
+                  <option>Real Estate / Property Management</option>
+                  <option>Retail / E-commerce</option>
+                  <option>Food & Beverage / Restaurant</option>
+                  <option>Franchise / Multi-location</option>
+                  <option>Construction / Trades</option>
+                  <option>Technology / SaaS</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Describe your business and what you do <span class="req">*</span></label>
+                <textarea name="business_description" rows="3" placeholder="What does your business do? Who are your customers? What's your core service or product?" required></textarea>
               </div>
               <div class="form-row">
                 <div class="form-group">
@@ -506,7 +577,7 @@
                 </div>
                 <div class="form-group">
                   <label>Number of employees / contractors</label>
-                  <select name="employees">
+                  <select name="team_size">
                     <option value="">Select...</option>
                     <option>Just me (solo operator)</option>
                     <option>2–5</option>
@@ -518,7 +589,7 @@
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>Annual Revenue Range *</label>
+                  <label>Annual Revenue Range <span class="req">*</span></label>
                   <select name="revenue" required>
                     <option value="">Select...</option>
                     <option>Pre-revenue / Startup</option>
@@ -542,46 +613,64 @@
                 </div>
               </div>
               <div class="form-nav">
-                <button type="button" class="btn-form-back" onclick="prevStep(2)">← Back</button>
-                <button type="button" class="btn-form-next" onclick="nextStep(2)">Next: Tech Stack →</button>
+                <button type="button" class="btn btn-ghost-navy" onclick="prevStep(2)">← Back</button>
+                <button type="button" class="btn btn-navy btn-next" onclick="nextStep(2)">Next: Tech Stack →</button>
               </div>
             </div>
 
-            <!-- STEP 3: Tech Stack -->
+            <!-- STEP 3: TECH STACK -->
             <div class="form-section" data-section="3">
-              <div class="form-section-title">Current Tech Stack</div>
-              <div class="form-section-sub">What tools are you currently using? This helps us identify gaps and integration opportunities.</div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What CRM or customer management system do you use?</label>
-                  <select name="crm">
-                    <option value="">Select...</option>
-                    <option>None / spreadsheets</option>
-                    <option>HubSpot</option>
-                    <option>Salesforce</option>
-                    <option>GoHighLevel</option>
-                    <option>Zoho CRM</option>
-                    <option>Pipedrive</option>
-                    <option>Jobber / ServiceTitan</option>
-                    <option>Other</option>
-                  </select>
-                </div>
+              <div class="form-section-header">
+                <h3>Current Tech Stack</h3>
+                <p>What tools are you currently using? This helps us identify gaps and integration opportunities.</p>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What tools do you currently use? (select all that apply)</label>
-                  <div class="checkbox-grid">
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="google-workspace" /><span>Google Workspace</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="quickbooks" /><span>QuickBooks</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="stripe" /><span>Stripe / Payment processor</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="mailchimp" /><span>Email marketing platform</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="zapier" /><span>Zapier / Make.com</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="slack" /><span>Slack / Team comms</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="scheduling" /><span>Scheduling software</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="social-media" /><span>Social media management</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="chatbot" /><span>Chatbot / Live chat</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="tools" value="review-mgmt" /><span>Review management tool</span></label>
-                  </div>
+              <div class="form-group">
+                <label>What CRM or customer management system do you use?</label>
+                <select name="crm">
+                  <option value="">Select...</option>
+                  <option>None / spreadsheets</option>
+                  <option>HubSpot</option>
+                  <option>Salesforce</option>
+                  <option>GoHighLevel</option>
+                  <option>Jobber</option>
+                  <option>ServiceTitan</option>
+                  <option>Pipedrive</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>What tools do you currently use? <span class="form-hint">(select all that apply)</span></label>
+                <div class="checkbox-grid">
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="google-workspace" /> Google Workspace
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="quickbooks" /> QuickBooks
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="stripe" /> Stripe / Payment processor
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="mailchimp" /> Email marketing platform
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="zapier" /> Zapier / Make.com
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="slack" /> Slack / Team comms
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="scheduling" /> Scheduling software
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="social-media" /> Social media management
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="chatbot" /> Chatbot / Live chat
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="tools" value="review-mgmt" /> Review management tool
+                  </label>
                 </div>
               </div>
               <div class="form-row">
@@ -608,101 +697,112 @@
                 </div>
               </div>
               <div class="form-nav">
-                <button type="button" class="btn-form-back" onclick="prevStep(3)">← Back</button>
-                <button type="button" class="btn-form-next" onclick="nextStep(3)">Next: Automation Opportunity →</button>
+                <button type="button" class="btn btn-ghost-navy" onclick="prevStep(3)">← Back</button>
+                <button type="button" class="btn btn-navy btn-next" onclick="nextStep(3)">Next: Automation Opportunity →</button>
               </div>
             </div>
 
-            <!-- STEP 4: Automation Opportunity -->
+            <!-- STEP 4: AUTOMATION OPPORTUNITY -->
             <div class="form-section" data-section="4">
-              <div class="form-section-title">Automation Opportunity</div>
-              <div class="form-section-sub">Where is your business bleeding time and money right now?</div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What manual tasks take the most time in your business? (select all that apply) *</label>
-                  <div class="checkbox-grid">
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="lead-followup" /><span>Lead follow-up & nurturing</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="scheduling" /><span>Scheduling & dispatching</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="invoicing" /><span>Invoicing & collections</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="reporting" /><span>Reporting & analytics</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="social-posting" /><span>Social media & content posting</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="review-requests" /><span>Review requests & reputation mgmt</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="onboarding" /><span>Customer onboarding</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="data-entry" /><span>Data entry & record keeping</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="seo-content" /><span>SEO & content creation</span></label>
-                    <label class="checkbox-item"><input type="checkbox" name="manual_tasks" value="hr-payroll" /><span>HR, payroll & contractor mgmt</span></label>
-                  </div>
+              <div class="form-section-header">
+                <h3>Automation Opportunity</h3>
+                <p>Where is your business bleeding time and money right now?</p>
+              </div>
+              <div class="form-group">
+                <label>What manual tasks take the most time in your business? <span class="req">*</span> <span class="form-hint">(select all that apply)</span></label>
+                <div class="checkbox-grid">
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="lead-followup" /> Lead follow-up & nurturing
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="scheduling" /> Scheduling & dispatching
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="invoicing" /> Invoicing & collections
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="reporting" /> Reporting & analytics
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="social-posting" /> Social media & content posting
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="review-requests" /> Review requests & reputation mgmt
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="onboarding" /> Customer onboarding
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="data-entry" /> Data entry & record keeping
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="seo-content" /> SEO & content creation
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="manual_tasks" value="hr-payroll" /> HR, payroll & contractor mgmt
+                  </label>
                 </div>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>How many hours per week does your team spend on manual, repetitive tasks?</label>
-                  <select name="manual_hours">
-                    <option value="">Select...</option>
-                    <option>Under 5 hours</option>
-                    <option>5–15 hours</option>
-                    <option>15–30 hours</option>
-                    <option>30–60 hours</option>
-                    <option>60+ hours</option>
-                  </select>
-                </div>
+              <div class="form-group">
+                <label>How many hours per week does your team spend on manual/repetitive tasks?</label>
+                <select name="manual_hours">
+                  <option value="">Select...</option>
+                  <option>Under 5 hours</option>
+                  <option>5–15 hours</option>
+                  <option>15–30 hours</option>
+                  <option>30–60 hours</option>
+                  <option>60+ hours</option>
+                </select>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What is your biggest operational bottleneck right now? *</label>
-                  <textarea name="bottleneck" placeholder="Describe the single biggest thing slowing your business down or costing you the most time / money..." rows="3" required></textarea>
-                </div>
+              <div class="form-group">
+                <label>What's the single biggest bottleneck in your business right now? <span class="req">*</span></label>
+                <textarea name="bottleneck" rows="3" placeholder="Describe the single biggest thing slowing your business down or costing you the most time / money..." required></textarea>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>Have you tried to automate anything before? What happened?</label>
-                  <textarea name="past_automation" placeholder="Tell us what you've tried — what worked, what didn't, and why you stopped (if applicable)..." rows="3"></textarea>
-                </div>
+              <div class="form-group">
+                <label>What have you already tried to fix it?</label>
+                <textarea name="tried_before" rows="2" placeholder="Tell us what you've tried — what worked, what didn't, and why you stopped (if applicable)..."></textarea>
               </div>
               <div class="form-nav">
-                <button type="button" class="btn-form-back" onclick="prevStep(4)">← Back</button>
-                <button type="button" class="btn-form-next" onclick="nextStep(4)">Next: Goals & Fit →</button>
+                <button type="button" class="btn btn-ghost-navy" onclick="prevStep(4)">← Back</button>
+                <button type="button" class="btn btn-navy btn-next" onclick="nextStep(4)">Next: Goals & Fit →</button>
               </div>
             </div>
 
-            <!-- STEP 5: Goals & Fit -->
+            <!-- STEP 5: GOALS & FIT -->
             <div class="form-section" data-section="5">
-              <div class="form-section-title">Goals & Fit</div>
-              <div class="form-section-sub">Last step — help us understand what success looks like for you.</div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What solution are you most interested in? *</label>
-                  <select name="solution_interest" required>
-                    <option value="">Select...</option>
-                    <option>AI Growth Engine ($500/mo) — SEO & GBP automation</option>
-                    <option>Business Automation Stack — full operations automation</option>
-                    <option>Franchise OS Build — full franchise operating system</option>
-                    <option>Not sure — I need an audit first</option>
-                  </select>
-                </div>
+              <div class="form-section-header">
+                <h3>Goals & Fit</h3>
+                <p>Help us understand what success looks like for you and whether we're the right fit.</p>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>What does success look like for you in 90 days? *</label>
-                  <textarea name="success_definition" placeholder="Be specific — what would need to happen for you to say this was worth every dollar?" rows="3" required></textarea>
-                </div>
+              <div class="form-group">
+                <label>Which solution are you most interested in?</label>
+                <select name="service_interest">
+                  <option value="">Select...</option>
+                  <option>AI Growth Engine ($500/mo) — SEO & GBP automation</option>
+                  <option>Business Automation Stack — full operations automation</option>
+                  <option>Franchise OS Build — full franchise operating system</option>
+                  <option>Not sure — I need an audit first</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>What does success look like for you in 90 days? <span class="req">*</span></label>
+                <textarea name="success_definition" rows="3" placeholder="Be specific — what would need to happen for you to say this was worth every dollar?" required></textarea>
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>What is your budget for this engagement?</label>
+                  <label>What's your monthly budget for this engagement?</label>
                   <select name="budget">
                     <option value="">Select...</option>
                     <option>Under $1,000/mo</option>
                     <option>$1,000 – $3,000/mo</option>
                     <option>$3,000 – $7,000/mo</option>
                     <option>$7,000 – $15,000/mo</option>
-                    <option>$15,000+/mo or project basis</option>
-                    <option>Flexible — depends on ROI</option>
+                    <option>$15,000+/mo</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>How soon are you looking to get started?</label>
-                  <select name="timeline">
+                  <label>When are you looking to get started?</label>
+                  <select name="start_timeline">
                     <option value="">Select...</option>
                     <option>ASAP — I'm ready now</option>
                     <option>Within 30 days</option>
@@ -711,31 +811,25 @@
                   </select>
                 </div>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>How did you hear about us?</label>
-                  <select name="referral_source">
-                    <option value="">Select...</option>
-                    <option>Referral from someone I know</option>
-                    <option>Google search</option>
-                    <option>Social media</option>
-                    <option>Saw DukeOS / Scoop Duke</option>
-                    <option>Other</option>
-                  </select>
-                </div>
+              <div class="form-group">
+                <label>How did you hear about us?</label>
+                <select name="referral_source">
+                  <option value="">Select...</option>
+                  <option>Referral from someone I know</option>
+                  <option>Google search</option>
+                  <option>Social media</option>
+                  <option>Saw DukeOS / Scoop Duke</option>
+                  <option>Other</option>
+                </select>
               </div>
-              <div class="form-row single">
-                <div class="form-group">
-                  <label>Anything else you want us to know?</label>
-                  <textarea name="additional_info" placeholder="Any additional context, questions, or things we should know before our call..." rows="3"></textarea>
-                </div>
+              <div class="form-group">
+                <label>Anything else we should know?</label>
+                <textarea name="additional_notes" rows="2" placeholder="Any additional context, questions, or things we should know before our call..."></textarea>
               </div>
               <div class="form-nav">
-                <button type="button" class="btn-form-back" onclick="prevStep(5)">← Back</button>
-                <div></div>
+                <button type="button" class="btn btn-ghost-navy" onclick="prevStep(5)">← Back</button>
+                <button type="submit" class="btn btn-gold btn-lg" id="submit-btn">Submit My Application →</button>
               </div>
-              <button type="submit" class="btn-submit" id="submit-btn">Submit My Application →</button>
-              <p class="form-disclaimer">We review every application personally. You'll hear from us within 24 hours.</p>
             </div>
 
           </form>
@@ -746,25 +840,26 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-top">
-        <div class="footer-logo">
-          <img src="logo-final.png" alt="Frakes Method Consulting" />
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="logo-v3-a.png" alt="Frakes Method Consulting" class="footer-logo" />
+          <p>Business Repair & Automation.<br />Dallas–Fort Worth, TX</p>
         </div>
-        <nav class="footer-links">
-          <a href="#what-we-do">What We Do</a>
+        <div class="footer-links">
+          <a href="#problem">What We Do</a>
           <a href="#solutions">Solutions</a>
           <a href="#proof">Results</a>
+          <a href="#audit">Free Audit</a>
           <a href="#about">About</a>
-          <a href="#intake">Apply</a>
-        </nav>
+          <a href="#apply">Apply</a>
+        </div>
         <div class="footer-contact">
           <a href="mailto:Andrew@lit-ventures.com">Andrew@lit-ventures.com</a>
         </div>
       </div>
       <div class="footer-bottom">
-        <span class="footer-copy">© 2026 Frakes Method Consulting. All rights reserved.</span>
-        <span class="footer-location">Dallas-Fort Worth, TX</span>
+        <p>© 2026 Frakes Method Consulting. All rights reserved.</p>
       </div>
     </div>
   </footer>
